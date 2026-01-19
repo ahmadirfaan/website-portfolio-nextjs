@@ -1,13 +1,10 @@
 import { TechStack } from "@/components/tech-stack";
 
 
-export default function AboutPage() {
+export default function ServicesPage() {
     return (
-      <section className="py-24 space-y-10" style={{ paddingTop: 'clamp(3rem, 8vw, 6rem)', paddingBottom: 'clamp(3rem, 8vw, 6rem)' }}>
-        <h1 className="font-bold" style={{ fontSize: 'clamp(1.75rem, 4vw, 2.25rem)' }}>Services</h1>
-        
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 2xl:py-28">
         <TechStack />
-        
       </section>
     );
   }

@@ -2,9 +2,9 @@ import { Container } from "./container";
 
 export function Footer() {
   return (
-    <footer className="border-t border-gray-800" style={{ paddingTop: 'clamp(1.5rem, 3vw, 2rem)', paddingBottom: 'clamp(1.5rem, 3vw, 2rem)' }}>
+    <footer className="border-t border-gray-800 py-4 sm:py-5 md:py-6 lg:py-8">
       <Container>
-        <p className="text-center text-gray-400" style={{ fontSize: 'clamp(0.75rem, 1.5vw, 0.875rem)' }}>
+        <p className="text-center text-gray-400 text-xs sm:text-sm md:text-base lg:text-lg">
           © {new Date().getFullYear()} Ahmad Irfaan. All rights reserved.
         </p>
       </Container>

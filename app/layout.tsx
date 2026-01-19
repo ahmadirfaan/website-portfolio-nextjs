@@ -12,7 +12,7 @@ export default function RootLayout({
     <html lang="id">
       <body className="bg-[#0A192F] text-white flex flex-col min-h-screen">
         <Navbar />
-        <main className="flex-1" style={{ paddingTop: 'clamp(3rem, 6vw, 5rem)' }}>
+        <main className="flex-1 pt-4 sm:pt-6 md:pt-8 lg:pt-12 xl:pt-16 2xl:pt-20">
           <Container>
             {children}
           </Container>

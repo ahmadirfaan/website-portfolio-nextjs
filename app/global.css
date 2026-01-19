@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#0B0F19] text-gray-200;
+  @apply bg-[#0A192F] text-white;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }

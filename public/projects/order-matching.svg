@@ -1,0 +1,31 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A192F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#061627;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFFF;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#00FFFF;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad1)"/>
+  <rect width="800" height="450" fill="url(#grad2)"/>
+  
+  <!-- Chart lines -->
+  <polyline points="50,350 150,280 250,320 350,250 450,300 550,200 650,250 750,180" 
+            fill="none" stroke="#00FFFF" stroke-width="3" opacity="0.6"/>
+  <polyline points="50,380 150,310 250,350 350,280 450,330 550,230 650,280 750,210" 
+            fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Grid lines -->
+  <line x1="0" y1="350" x2="800" y2="350" stroke="#1E3A5F" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="#1E3A5F" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="150" x2="800" y2="150" stroke="#1E3A5F" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Title -->
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="32" fill="#00FFFF" 
+        text-anchor="middle" font-weight="bold">Order Matching Engine</text>
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="16" fill="#88CCCC" 
+        text-anchor="middle">Real-time Trading System</text>
+</svg>
